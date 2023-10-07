@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Rubik:wght@400;600&display=swap');
 :root {
     --button-color: #50b83c;
     --base-border-color: #e0e0e0;
 }
+
+@font-face {
+    font-family: main-font;
+    src: url(Roboto);
+}
+
 body {
     margin: 0;
     font-size: 13px;

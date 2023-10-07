@@ -17,14 +17,14 @@
     column-gap: 16px;
 }
 
-.header__left-toggle {
+.header__left--toggle {
     width: 24px;
     height: 24px;
     background-image: url(@/assets/image/toggle.png);
     background-size: contain;
 }
 
-.header__left-logo {
+.header__left--logo {
     flex: 1;
     height: 32px;
     background-image: url(@/assets/image/cukcuk-logo.png);
@@ -42,7 +42,7 @@
     justify-content: space-between;
 }
 
-.header__right-search {
+.header__right--search {
     width: 385px;
     height: 36px;
     border-radius: 4px;
@@ -50,9 +50,10 @@
     border: 1px solid var(--base-border-color);
 }
 
-.header__right-avatar {
+.header__right--avatar {
     width: 36px;
     height: 36px;
-    background-color: #dddddd;
+    background-image: url(@/assets/icon/avatar-default.png);
+    background-size: contain;
     border-radius: 50%;
 }
